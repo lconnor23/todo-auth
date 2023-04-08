@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <title>Document</title>
+</head>
+<body class="flex flex-col items-center bg-slate-500 text-white text-xl">
+    <h1 class="m-10 text-3xl text-center">Welcome to your personalized to do list</h1>
+    <form action="/login" class="flex flex-col items-center space-y-5">
+        <label for="email">Email</label>
+        <input type="text" name="email">
+        <label for="password">Password</label>
+        <input type="text" name="password">
+        <button type="submit" class="text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg px-5 py-2.5 text-center mr-2 m-2">Enter</button>
+    </form>
+    <span>Not a member? 
+    <button class="text-slate-500 bg-white rounded-lg px-5 py-2.5 text-center m-4"><a href="/signup" class="text-center">Sign Up</a></button></span>
+</body>
+</html>
